@@ -1,0 +1,4 @@
+- hosts: "Management node hostname"
+  become: yes
+  roles:
+    - zabbix
